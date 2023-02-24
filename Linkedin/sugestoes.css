@@ -1,0 +1,159 @@
+.pessoas__tambem__viram {
+    position: absolute;
+    width: 320px;
+    height: 546px;
+    left: 966px;
+    top: 76px;
+
+    background: var(--fundo-card);
+    border-radius: 16px;
+
+    font-family: 'Inter';
+
+    padding-left: 16px;
+    
+}
+
+.pessoas__tambem__viram h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-top: 16px;
+
+    color: var(--texto-principal);
+}
+
+.pessoas__tambem__viram img {
+    padding-top: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.pessoas__tambem__viram span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    padding-top: 16px;
+}
+
+.pessoas__tambem__viram p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: var(--texto-secundario);
+}
+
+.pessoas__tambem__viram button {
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    background: var(--fundo-card);
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    width: 154px;
+    height: 28px;
+
+    margin-top: 7px;
+    
+}
+
+.pessoas__tambem__viram li {
+    display: flex;
+}
+
+.pessoas__tambem__viram div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6px;
+    width: 230px;
+}
+
+
+/*Código de "Pessoas que talvez você conheça"*/
+
+.pessoas__talvez {
+    position: absolute;
+    width: 320px;
+    height: 551px;
+    left: 966px;
+    top: 630px;
+
+    background: var(--fundo-card);
+    border-radius: 16px;
+
+    font-family: 'Inter';
+
+    padding-left: 16px;
+}
+
+.pessoas__talvez h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-top: 16px;
+
+    color: var(--texto-principal);
+}
+
+.pessoas__talvez img {
+    padding-top: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.pessoas__talvez span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    padding-top: 16px;
+}
+
+.pessoas__talvez p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: var(--texto-secundario);
+}
+
+.pessoas__talvez button {
+    border: 1px solid var(--texto-principal);
+    border-radius: 16px;
+    background: var(--fundo-card);
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    width: 154px;
+    height: 28px;
+
+    margin-top: 7px;
+    
+}
+
+.pessoas__talvez li {
+    display: flex;
+}
+
+.pessoas__talvez div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6px;
+    width: 230px;
+}

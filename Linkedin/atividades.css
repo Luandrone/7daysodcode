@@ -1,0 +1,135 @@
+.atividades {
+    font-family: 'Roboto', sans-serif;
+    width: 780px;
+    height: 371px;
+    position: absolute;
+    left: 154px;
+    top: 878px;
+    
+    background: var(--fundo-card);
+    border-radius: 16px;
+}
+
+.atividades h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--texto-principal);
+
+    position: absolute;
+    padding: 15px;
+}
+
+.atividades h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--primario);
+    padding: 40px 0px 0px 15px;
+}
+
+.atividades h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+    padding: 13px 0px 8px 15px;
+}
+
+.atividades img {
+    width: 64px;
+    height: 64px;
+    padding: 0px 8px 10px 15px;
+}
+.atividades__publicacao__1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.atividades p {
+    font-size: 14px;
+    color:#FFFFFF;
+    line-height: 20px;
+}
+
+.atividades__ellipse {
+    width: 48px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+}
+
+.atividades span  {
+    width: 16px;
+    height: 16px;
+    background: #378fe9;
+    border-radius: 50%;
+}
+
+.atividades__ellipse span:nth-child(2) {
+    background: #6DAE4F;
+    position: absolute;
+    left: 21px;
+}
+
+.atividades__ellipse span:nth-child(3) {
+    background: #DF704D;
+    position: absolute;
+    left: 27px;
+}
+
+.atividades__ellipse div {
+    width: 714px;
+    position: absolute;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.atividades__ellipse p {
+    
+    font-weight: 400;
+    font-size: 11px;
+    color: var(--texto-secundario);
+    line-height: 20px;
+}
+
+.atividades__publicacao__2 {
+    border-top: 1px solid var(--texto-secundario);
+    margin-top: 10px;
+}
+.atividades__publicacao__2 div{
+    display: flex;
+}
+
+.atividades__ellipse__comentarios{
+    border-bottom: 1px solid var(--texto-secundario);
+    padding-bottom: 8px;
+}
+
+.atividades a {
+    text-align: center;
+    display: inline-block;
+    width: 182px;
+    height: 36px;
+    padding: 8px 310px 8px 292px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: var(--texto-secundario);
+}
+
+.atividades__sobre {
+    width: 780px;
+    height: 134px;
+    background: #1B2226;
+    border-radius: 16px;
+}
+
+.atividades__sobre h2 {
+    padding: 16px 24px;
+}
+
+.atividades__sobre p {
+    padding: 54px 24px 16px 24px;
+    text-align: justify;
+    line-height: 20px;
+    
+}

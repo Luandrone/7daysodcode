@@ -1,0 +1,236 @@
+:root {
+    --text-color: #667085;
+    --cor-principal:#8E2424;
+  }
+
+  body {
+    padding: 0px 120px 0 120px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+  }
+
+  .quem-somos {
+    text-align: center;
+    padding: 5rem 0 0 0;
+  }
+
+  .sobre {
+    color: var(--cor-principal);
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .titulo {
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .titulo-descricao {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: center;
+    margin: 0 10rem 0 10rem;
+  }
+
+  .metricas-container {
+    display: flex;
+    padding: 5rem ;
+    margin-left: 7rem;
+  }
+
+  .metricas-container div {
+    padding-right: 3rem;
+  }
+
+  .metricas-container h2 {
+    font-size: 60px;
+    color: var(--cor-principal);
+  }
+  .metricas-container h3 {
+    font-size: 18px;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .procurando-talentos {
+    text-align: center;
+  }
+
+  .procurando-talentos span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-principal);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
+  }
+
+  .procurando-talentos h3 {
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+  }
+
+  .procurando-talentos p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    padding-bottom: 3em
+  }
+
+  .procurando-talentos img {
+    width: 80%;
+  }
+
+  .vaga-profissao h2 {
+    margin: 80px 0 0 80px;
+  }
+
+  .vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px;
+    margin: 24px 800px 24px 80px;
+  }
+
+  .titulo-vaga {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .informacoes {
+    font-size: 16px;
+    color: var(--text-color);
+    padding-top: 24px;
+  }
+
+  .depoimentos {
+    background: rgba(196, 25, 25, 0.03);
+    margin-top: 10rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 64px 0;
+  }
+
+  .depoimentos h4 {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--cor-principal);
+    padding-top: 3rem;
+  }
+
+  .depoimentos-desenvolvedora-opiniao {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .depoimentos-imagem {
+    width: 56px;
+  }
+
+  .depoimentos-desenvolvedora {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .depoimentos p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+  }
+
+  .cabecalho {
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 96px 0px;
+    
+    
+  }
+
+  .cabecalho h2{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .cabecalho p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+  }
+
+  
+  .cabecalho input {
+   background: #FFFFFF;
+   border: 1px solid #d0d5dd;
+   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+   border-radius: 8px;
+   width: 360px;
+   height: 48px;
+   font-size: 16px;
+   padding: 12px 14px 12px 16px;
+  }
+
+  .cabecalho button {
+    background: var(--cor-principal);
+    color: #FFFFFF;
+    margin-left: 16px;
+    width: 116px;
+    height: 48px;
+  }

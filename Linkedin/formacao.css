@@ -1,0 +1,123 @@
+.formacao {
+    width: 780px;
+    height: 127px;
+    position: absolute;
+    left: 154px;
+    top: 1765px;
+
+    background: var(--fundo-card);
+    border-radius: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--texto-principal);
+}
+
+.formacao h2 {
+    padding: 9px 0 8px 24px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.formacao img {
+    width: 48px;
+    height: 48px;
+    padding: 0 0 32px 24px ;
+}
+
+.formacao h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.formacao__instituicao {
+    display: flex;
+}
+
+.formacao__instituicao div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 9px;
+}
+
+.formacao__instituicao span:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--texto-principal);
+}
+
+.formacao__instituicao span:nth-child(3){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    padding-top: 4px;
+
+    color: var(--texto-secundario);
+}
+
+.idiomas {
+    position: absolute;
+    width: 780px;
+    height: 178px;
+    left: 154px;
+    top: 1900px;
+
+    background: var(--fundo-card);
+    border-radius: 16px;
+}
+
+.idiomas h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: var(--texto-principal);
+    padding: 16px 0 0 24px;
+}
+
+.idiomas div {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 57px;
+}
+
+.idiomas span:nth-child(1) {
+   font-weight: 600;
+   font-size: 16px;
+   padding: 8px 0 0 0;
+   line-height: 30px;
+
+   color: #FFFFFF;
+}
+
+.idiomas span:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid var(--texto-secundario);
+    
+    padding-bottom: 12px;
+    
+    color: var(--texto-secundario);
+
+}
+
+.idiomas span:nth-child(3) {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 12px;
+
+    color: #FFFFFF;
+}
+
+.idiomas span:nth-child(4) {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}

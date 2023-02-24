@@ -1,0 +1,123 @@
+.experiencias {
+    position: absolute;
+    width: 780px;
+    height: 358px;
+    left: 154px;
+    top: 1399px;
+
+    background: var(--fundo-card);
+    border-radius: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.experiencias h2 {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 16px 0 8px 24px;
+    color: var(--texto-principal);
+}
+
+.experiencias img {
+    padding: 8px 8px 9px 24px;
+    width: 48px;
+}
+
+.experiencias__nome__da__empresa {
+    display: flex;
+}
+
+.experiencias__lista{
+    padding-left: 48px;
+}
+
+.experiencias__ellipse1{
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    position: absolute;
+    top: 124px;
+    left: 44px;
+}
+
+.experiencias__ellipse2{
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    position: absolute;
+    top: 201px;
+    left: 44px;
+}
+
+.experiencias__ellipse3{
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    position: absolute;
+    top: 280px;
+    left: 44px;
+}
+
+.experiencias__nome__da__empresa p:nth-child(1) {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 0 0 0;
+    color: var(--texto-principal);
+    line-height: 20px;
+}
+
+.experiencias__nome__da__empresa p:nth-child(2) { 
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+
+    padding: 0 0 10px 9px;
+}
+
+.experiencias__cargo h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-left: 33px;
+
+    color: var(--texto-principal);
+}
+
+.experiencias__cargo__lista {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 1px solid var(--texto-secundario);
+    padding-left: 33px;
+}
+
+.experiencias__cargo__lista span:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  
+    color: var(--texto-principal);
+}
+
+.experiencias__cargo__lista span:nth-child(2) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--texto-secundario);
+}
+
+.experiencias__cargo__lista span:nth-child(3) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--texto-secundario);
+}
